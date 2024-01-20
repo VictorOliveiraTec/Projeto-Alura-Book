@@ -144,6 +144,27 @@ main{
     
 }
 
-/* @media screen and (min-width: 1728px){
-
-} */
+@media screen and (min-width: 1728px){
+    .bloco-UL, .bloco-MV{
+        width: 80vw;
+        margin: 0 auto;
+        /* flex-direction: row; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr; */
+        gap: 40px;
+        align-items: center;
+    }
+    .Info, .Autora-Mes{
+        padding: 1em;
+        width: 40vw;
+        gap: 15px;
+        grid-template-rows: 200px 40px;
+        gap: 10px;
+        height: 300px;
+    }
+    .swiper {
+        width: 40vw;
+        height: 450px;
+    }
+}
