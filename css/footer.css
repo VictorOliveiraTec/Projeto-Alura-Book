@@ -1,0 +1,52 @@
+footer{
+    background-color: var(--Color-White);
+    padding: 1em;
+    display: flex;
+}
+
+footer .marca a p{
+    font-size: 1.2em;
+    color: var(--Color-Black);
+}
+
+.educacao, .educacao-online, .comunidade{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    footer{
+        border-top: 3px solid var(--Color-Cinza);
+        justify-content: space-around;
+        padding: 1em 0;
+    }
+    .educacao, .educacao-online, .comunidade{
+        padding: 0 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .list li{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .list li a{
+        color: var(--Color-Cinza-02);
+    }
+    p{
+        color: #858585;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .educacao, .educacao-online, .comunidade{
+        border-left: 3px solid var(--Color-Cinza-02);
+        padding-left: 10px;
+    }
+}

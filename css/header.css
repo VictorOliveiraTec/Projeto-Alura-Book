@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+header{
+    width: 100vw;
+}
+
+.TB-Menu{
+    display: none;
+}
+
+/* Base Inicial */
+.MB-Menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Color-White);
+    padding: 10px 15px;
+    align-items: center;
+}
+.MB-Menu .MB-Icon{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.MB-Menu .Menu-Icon{
+    display: flex;
+    gap: 15px;
+}
+
+/* #--# Active Menu */
+.Active_Back{
+    display: inline-block;
+    background-image: url("../assets/Menu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 24px;
+    position: relative;
+}
+.MB-Menu #Active:checked ~.List-MB{
+    display: inline-block;
+}
+.MB-Menu #Active{
+    display: none;
+}
+.List-MB{
+    background-color: var(--Color-White);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 60vw;
+}
+.List-MB li{
+    padding: 10px 0px 0px 10px;
+}
+.List-MB li a{
+    border-top: 1px solid var(--Color-Cinza);
+}
+.List-MB li .title{
+    color: var(--Color-Laranja);
+}
+
+/* Menu Campo de Texto */
+.Menu-Text{
+    display: flex;
+    flex-direction: column;
+    background: var(--Color-Linear);
+    color: var(--Color-White);
+    gap: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
+}
+.Menu-Text input{
+    background: transparent;
+    color: white;
+    border: 1px solid var(--Color-Cinza);
+    border-radius: 24px;
+    padding: 16px 15px;
+    width: 60vw;
+}
+.Menu-Text input::placeholder{
+    text-align: center;
+    background: url("../assets/lupa.svg") no-repeat;
+    background-position: .6em;
+}
+
+/* Desativação Direta */
+
+.TB-Icon{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+   .MB-Menu{
+        display: none;
+   }
+   .DK-Icons{
+        display: none;
+   }
+   .TB-Menu{
+        background-color: var(--Color-White);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 60px;
+   }
+   .TB-Menu .Logo p{
+        font-size: 1.8rem;
+   }
+   .TB-Menu .Logo p span{
+        font-family: var(--Font-Logo);
+   }
+   .TB-Menu .Logo, .TB-List, .TB-Icons{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+   }
+   .TB-Menu .Logo p, .TB-List li a{
+        color: var(--Color-Black);
+
+   }
+}
+
+@media screen and (min-width: 1728px){
+    .TB-Icons{
+        display: none;
+    }
+    .DK-Icons{
+        display: flex;
+        gap: 20px;
+   }
+   .DK-Icons .bloco01, .bloco02{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+   }
+}
