@@ -1,0 +1,7 @@
+.info__botao{
+    background-color: var(--Color-Laranja);
+    color: #fff;
+    grid-area: B;
+    padding: .1rem;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.menu__mobile__logo{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.menu__mobile__logo__botao{
+    display: inline-block;
+    background: url("../../../../img/Menu.svg") no-repeat;
+    width: 28px;
+    height: 24px;
+}
+
+.menu__mobile__logo__list{
+    background-color: var(--Color-White);
+    display: none;
+    left: -20px;
+    position: absolute;
+    padding: .4rem 0;
+    top: 45px;
+    width: 60vw;
+}
+.menu__mobile__logo__list__item{
+    padding: .8rem 0 0 12px;
+}
+
+.menu__mobile__logo__list__link{
+    color: var(--Color-Blue);
+    font-size: 1.1rem;
+}
+.menu__mobile__logo__list__link--titulo{
+    color: var(--Color-Laranja);
+}
+
+/* Active */
+#Active:checked ~.menu__mobile__logo__list{
+    display: inline-block;
+}
+
+#Active{
+    display: none;
+}

@@ -1,0 +1,5 @@
+.autora__mes__icons{
+    grid-area: IC;
+    display: flex;
+    gap: 15px;
+}

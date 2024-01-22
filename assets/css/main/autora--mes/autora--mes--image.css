@@ -1,0 +1,6 @@
+.autora__mes__image--autor{
+    grid-area: I;
+    width: 100%;
+    height: 100%;
+    background: url("../../../img/Angular.svg") no-repeat center / cover;
+}

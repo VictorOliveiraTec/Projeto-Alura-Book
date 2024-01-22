@@ -1,0 +1,20 @@
+.topicos__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80vw;
+    justify-content: center;
+}
+
+.topicos__list__item{
+    padding: 1rem 0;
+    margin: .8rem .25rem;
+}
+
+.topicos__list__link{
+    color: #fff;
+    background-color: var(--Color-Laranja);
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+}

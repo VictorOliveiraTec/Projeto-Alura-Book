@@ -1,0 +1,14 @@
+.text__input{
+    background: transparent;
+    border: 1px solid var(--Color-Cinza);
+    width: 80vw;
+    border-radius: 24px;
+    padding: .6rem .8rem;
+}
+
+.text__input::placeholder{
+    background: url("../../../img/Lupa.svg") no-repeat  .2rem;;
+    text-align: center;
+    padding: 1rem;
+    color: var(--Color-White);
+}

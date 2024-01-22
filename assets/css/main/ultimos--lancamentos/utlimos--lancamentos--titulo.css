@@ -1,0 +1,7 @@
+.ultimos__lancamentos__titulo{
+    background-color: var(--Color-White);
+    color: var(--Color-Laranja);
+    font-size: 1.8rem;
+    padding: .4rem 0 .2rem 0;
+    text-align: center;
+}

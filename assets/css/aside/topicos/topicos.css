@@ -1,0 +1,8 @@
+.topicos{
+    background: var(--Color-Linear);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem 0;
+    text-align: center;
+}

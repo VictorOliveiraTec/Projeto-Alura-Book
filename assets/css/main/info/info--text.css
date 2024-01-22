@@ -1,0 +1,18 @@
+.info__text{
+    grid-area: T;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info__text__titulo--principal{
+    color: var(--Color-Laranja);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.info__text__titulo--secundario{
+    color: var(--Color-Blue);
+    font-size: 1.1rem;
+    font-weight: 500;
+}

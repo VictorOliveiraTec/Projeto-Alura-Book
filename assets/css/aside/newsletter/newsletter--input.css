@@ -1,0 +1,15 @@
+.newsletter__input{
+    color: var(--Color-Blue);
+    background: transparent;
+    border: 1px solid var(--Color-Blue);
+    border-radius: 24px;
+    width: 80vw;
+    padding: 1rem;
+}
+
+.newsletter__input::placeholder{
+    color: var(--Color-Blue);
+    background: url("../../../img/Email.svg") no-repeat .8rem;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,6 @@
+.autora__mes__botao{
+    grid-area: B;
+    padding: .1rem;
+    text-align: center;
+    background-color: var(--Color-Laranja);
+}

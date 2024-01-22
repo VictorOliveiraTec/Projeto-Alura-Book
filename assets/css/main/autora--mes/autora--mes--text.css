@@ -1,0 +1,22 @@
+.autora__mes__text{
+    grid-area: T;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.autora__mes__text__titulo--principal{
+    color: var(--Color-Laranja);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.autora__mes__text__titulo--secundario{
+    color: var(--Color-Blue);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.autora__mes__text__image{
+    width: 30vw;
+}
